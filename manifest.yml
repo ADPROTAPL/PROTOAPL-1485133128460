@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: PROTOAPL
+  host: PROTOAPL
+  disk_quota: 1024M
+  services:
+  - PROTOAPL-cloudantNoSQLDB
+  - Retrieve and Rank-v4
